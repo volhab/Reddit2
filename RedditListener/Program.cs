@@ -18,7 +18,6 @@ builder.Services.AddDbContext<RedditContext>(opt =>
     };
 });
 
-builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient();
 builder.Services.Configure<RedditSettings>(builder.Configuration.GetSection("Reddit"));
