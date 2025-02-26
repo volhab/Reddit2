@@ -1,6 +1,6 @@
 @RedditListener_HostAddress = http://localhost:5118
 
-GET {{RedditListener_HostAddress}}/GetRedditStatistics/
+GET {{RedditListener_HostAddress}}/api/Posts/MostUpVotes
 Accept: application/json
 
 ###
